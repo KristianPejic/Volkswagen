@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Volkswagen | Kontakt</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="index.html">
+              <img src="assets/volkswagen.png" />
+            </a>
+          </div>
+          <div class="nav-list">
+            <div class="hamburger">
+              <div class="bar"></div>
+            </div>
+            <ul>
+              <li><a href="index.html" data-after="Home">Početna</a></li>
+              <li><a href="models.html" data-after="Modeli">Modeli</a></li>
+              <li><a href="history.html" data-after="Povijest">Povijest</a></li>
+              <li><a href="gallery.html" data-after="Galerija">Galerija</a></li>
+              <li><a href="contact.html" data-after="Kontakt">Kontakt</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+      <div class="container">
+        <h1>Kontaktirajte nas</h1>
+        <p>
+          Imate pitanja? Pošaljite nam poruku i javit ćemo vam se u najkraćem
+          roku.
+        </p>
+
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Ime i prezime</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Poruka</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="btn">Pošalji poruku</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="mailto:example@email.com" target="_blank">
+          <img src="assets/mail.png" alt="Mail" />
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="assets/instagram.png" alt="Instagram" />
+        </a>
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="assets/facebook.png" alt="Facebook" />
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+          <img src="assets/twitter.png" alt="Twitter" />
+        </a>
+      </div>
+      <p>
+        &copy; 2025 Volkswagen Website Kristian Pejić | Sva prava pridržana.
+      </p>
+    </footer>
+  </body>
+</html>
