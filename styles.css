@@ -151,7 +151,7 @@ body {
   top: 0;
   width: 100vw;
   height: auto;
-  background: transparent !important; /* Force transparency */
+  background: transparent !important;
   transition: 0.3s ease background-color;
   padding: 0;
   margin: 0;
@@ -159,12 +159,12 @@ body {
 
 #header .header {
   min-height: 8vh;
-  background: transparent !important; /* Force transparency */
+  background: transparent !important;
   transition: 0.3s ease background-color;
 }
 
 #header .nav-bar {
-  background: transparent !important; /* Remove any extra background */
+  background: transparent !important;
   padding: 0px 10px;
 }
 
@@ -328,7 +328,7 @@ body {
 .car-item:hover {
   transform: scale(1.05);
 }
-/* History Section */
+
 .history {
   padding: 50px 20px;
   background-color: #f5f5f5;
@@ -371,7 +371,7 @@ body {
   font-size: 16px;
   color: #444;
 }
-/* Gallery Section */
+
 .gallery {
   padding: 50px 20px;
   background-color: #f5f5f5;

@@ -37,26 +37,22 @@ window.addEventListener("scroll", () => {
   }
 });
 
-// Word Switching Effect
 const words = ["Inovacija", "Ekscelencija", "Dominacija"];
 let wordIndex = 0;
 const textElement = document.getElementById("text-slider-text");
 
-// Load first word instantly
 textElement.textContent = words[wordIndex];
 textElement.classList.add("active");
 
-// Function to switch words fast
 function switchWord() {
-  textElement.classList.remove("active"); // Hide current word
+  textElement.classList.remove("active");
   setTimeout(() => {
-    wordIndex = (wordIndex + 1) % words.length; // Get next word
-    textElement.textContent = words[wordIndex]; // Update word
-    textElement.classList.add("active"); // Show new word
-  }, 300); // Short delay for smooth transition
+    wordIndex = (wordIndex + 1) % words.length;
+    textElement.textContent = words[wordIndex];
+    textElement.classList.add("active");
+  }, 300);
 }
 
-// Change word every 1.5 seconds, starting immediately
 setInterval(switchWord, 1500);
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -74,7 +70,6 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    // Simulacija slanja poruke
     alert(`Hvala ${name}, vaša poruka je poslana!`);
     form.reset();
   });
